@@ -8,10 +8,10 @@ pub struct VPNClient {
 }
 
 impl VPNClient {
-    pub fn new() -> Box<VPNClient> {
-        Box::new(VPNClient {
+    pub fn new() -> VPNClient {
+        VPNClient {
 
-        })
+        }
     }
     pub fn init(&mut self) {
         info!("{}","Initializing VPN Client...")
