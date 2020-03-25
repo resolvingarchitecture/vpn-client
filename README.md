@@ -4,7 +4,8 @@ A client for a local VPN instance.
 
 ## Goals
 
-* Determine if local VPN isntance is installed using CLI
+* Embed [vpncloud](https://crates.io/crates/vpncloud)
+* Determine if local VPN instance is installed using CLI
 * Connect with local instance using CLI
 * Send message over VPN using CLI
 * Receive message over VPN using CLI

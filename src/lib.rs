@@ -2,6 +2,7 @@ use ra_common::models::{Network, Packet};
 
 use log::{trace,info};
 
+
 pub struct VPNClient {
 
 }
