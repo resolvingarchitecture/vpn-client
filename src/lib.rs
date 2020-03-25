@@ -17,10 +17,8 @@ impl VPNClient {
         info!("{}","Initializing VPN Client...")
 
     }
-}
 
-impl Network for VPNClient {
-    fn handle(&mut self, packet: &mut Packet) {
+    pub fn handle(&mut self, packet: &mut Packet) {
         info!("Handling incoming packet id={}",packet.id);
 
     }
