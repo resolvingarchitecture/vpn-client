@@ -1,6 +1,6 @@
 [package]
 name = "vpn_client"
-version = "0.0.6"
+version = "0.0.7"
 authors = ["Brian Taylor <brian@resolvingarchitecture.io>"]
 license-file = "LICENSE"
 edition = "2018"
@@ -20,7 +20,7 @@ simple_logger = "1.6.0"
 failure = "0.1.5"
 exitfailure = "0.5.1"
 
-ra_common = "0.0.41"
+ra_common = "0.0.43"
 
 #vpncloud = "1.0.0"
 
